@@ -1,0 +1,1017 @@
+##Forside
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* sætter størrelsen af boksene, ja størrelsen af boksene, dvs. ingen margener osv. så to bokse kan støde helt op til hinanden. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  padding: 10px; /* margen omkring tekst */
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+/* sætter h1 i header klassen til fontsize 50px*/
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden; /* tekst bliver ikke vist hvis det går ud over kanten*/
+  background-color: #004080;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: inline-block; /* linkene fylder hele linjen*/
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* fjerner understregen på link*/
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns*/
+/* danner en klasse til begge kolonner */
+.row:after {
+  content: "";
+  display: block;
+  clear: both; /* rydder efter begge */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="Ryslogo.jpg" width="570" height="200" ></img></h1>
+</div>
+
+<div class="topnav">
+  <a href="Somama2.0.html">Hjem</a>
+  <a href="Studieretninger.html">Studieretninger</a>
+  <a href="GCP.html">GCP</a>
+  <a href="QandA.html">Q&A</a>
+  <a href="Vejledning.html">Vejledning</a>
+  <a href="kontaktos.html" style="float:right">Kontakt os</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2  style="color:MidnightBlue;">Nyheder</h2>
+      <h5   style="color:MidnightBlue;">VIRTUELT BESØG, Jan 18, 2021</h5>
+      <h1><img src="forside3.png" width="490" height="300" ></img></h1>
+      <p>Kære nye ansøgere sommeren 2021</p>
+      <p>Som følge af Corona-situationen har vi været nødt til at lægge hovedparten af vores orientering ud virtuelt. Det er desværre ikke muligt for os at afholde vores populære besøgsdage på Rysensteen Gymnasium i skoleåret 2020-2021. Vi vil derfor invitere dig til et virtuelt besøg på skolen, hvor du får mulighed for at møde både ledelse, lærere og elever.</p>
+      <p>Besøget foregår gennem den virtuelle platform Zoom og tilmelding sker gennem tilmeldingsformularerne herunder. Kun én tilmelding pr. elev.<p>
+      <p>Et virtuelt besøg på Zoom tager ca 45 minutter og ligger typisk i tidsrummet kl. 15.00 - 15.45.<p>
+      <p>Der er et begrænset antal pladser pr. gang, og kun tilmeldte med et tilsendt link til Zoom kan deltage. Det betyder også, at vi beder dig om at melde afbud til skolen, hvis du bliver forhindret i at deltage, så vi kan tilbyde pladsen til en anden. Vi byder dig velkommen ind i vores virtuelle univers!<p>
+      <a href="https://rysensteen.dk/form/tilmelding-til-besoegsdag-25-jan">Tilmelding</a>
+    </div>
+    <div class="card">
+      <h2   style="color:MidnightBlue;">Rysensteen som campus</h2>
+      <h1><img src="forside2.png" width="490" height="300" ></img></h1>
+      <p>Rysensteen Gymnasium er et campus-gymnasium med undervisning på flere forskellige adresser, nemlig</p>
+      <p>- i Hovedbygningen på Tietgensgade 74</p>
+      <p>- i staldene i brune kødby</p>
+      <p>- i DGI-byen<p>
+      <p>- og ikke mindst på Flæsketorvet 60 i Hvide Kødby<p>
+      <p> Afstanden mellem de fleste afdelinger er kun et minuts gang, dog er der 7-8 minutters gang mellem hovedbygningen og Flæsketorvet.<p>
+    </div>
+    <div class="card">
+      <h2   style="color:MidnightBlue;">Brev fra Gitte</h2>
+      <h5   style="color:MidnightBlue;">Gymnasiestart og 'putte-traditioner'</h5>
+      <h1><img src="forside1.png" width="490" height="300" ></img></h1>
+      <p>Gymnasiestart er traditionelt lig med overskrifter som ”puttefester” og druk. Skal man tro på overskrifterne bliver det simpelthen bare værre og værre. Selvom vi på gymnasierne især gennem de seneste år har arbejdet intenst for at styre gennem gymnasiestarten uden for mange grimme oplevelser for elever, forældre og skoler.  Denne sommer adskiller sig ikke stort fra de forrige. Mediernes overskrifter er nærmest trykt på forhånd! Men – når det er sagt, så er der VIRKELIG også en opgave at løse. Dette blog-indlæg handler om, hvad vi har forsøgt at gøre på Rysensteen i år – og så lige nogle grundlæggende holdninger til fænomenet.</p>
+      <p>På Rysensteen samarbejdede vi gennem mange år med 2.g og 3.g-eleverne for at skabe gode rammer også for de fællesskaber, som eleverne gerne ville give de nye 1.g-elever – et af disse arrangementer var Dyrehaveturen.<p>
+      <p>Men – som mange vil vide har Dyrehavearrangementet især gennem de seneste 5-6 år udviklet sig til en fest for ca. 10.000 unge mennesker med et stærkt fokus alene på druk. Da dette for 4 år siden resulterede i adskillige udpumpninger og en lukning af akutafdelingen på Herlev hospital for andre end Dyrehaveunge, hvoraf nogle var decideret livstruede af alkoholpromiller på helt op til 4,0, valgte vi på Rysensteen Gymnasium at stoppe for opbakningen til at vores elever deltog. Ikke at vi kan forhindre dem i det i deres fritid. Men vi valgte at tilbyde alternativer.<p>
+      <p>I år har vi italesat udfordringerne med sammenblandingen af gymnasiestart og druk endnu kraftigere. Vi har konkret bedt 2. Og 3.g eleverne om at bakke op om det arrangement , som vi lavede for de nye 1.g-elever på fredagen for Dyrehavearrangementet ved IKKE at appellere til, at de boykottede det og i stedet gik med dem ud i Dyrehaven. Det blev respekteret. De 400 1.g-ere havde således et fællesarrangement, hvor de hele eftermiddagen og hen på aftenen sammen  opbyggede relationer til hinanden indenfor skolens egne rammer –  bl.a. med alkoholfri fællesspisning efterfulgt af en kort cafe med mulighed for sammen at nyde  en enkelt øl, hvis det var det, de havde lyst til. En gymnasiestart uden drukfest<p>
+      <p>Alle de 50 introelever inviterede efterfølgende 1.g-eleverne på en skovtur i Dyrehaven ugen efter at alle andre havde været der, og meldingerne herfra er, at det forløb i fuld ro og orden.<p>
+      <p>Skoleåret er begyndt med fællesarrangementer og faglighed hånd i hånd.<p>
+      <p>Men det er ikke alene drukfællesskabet, som vi må til livs. Vi skal også ”putte”-begrebet til livs. Det er ganske enkelt ikke i orden i en tid som denne, hvor bl.a. ”me-too” har fået sat fokus på en manglende ligestilling, at vi accepterer krænkende adfærd overfor nystartede gymnasieelever. Og slet ikke på vores gymnasium, hvor værdierne er Nysgerrighed – Ordentlighed – Rummelighed – Ansvarlighed – forkortet NORA . Dannelse handler også om rummelighed – om fordomsfrit at kunne møde andre mennesker med omsorg og interesse.<p>
+      <p>Det gør man ikke ved at tegne alle nye i hovedet og på tøjet med tusch for SLET ikke at tale om at udsætte nogle af dem for kønskrænkende adfærd gennem udvælgelsesprocesser, der udstiller udseende.<p>
+      <p>Gymnasiestart skal kendetegnes ved at de nye 1.g-elever i trygge rammer lukkes ind i en ny skolekultur og faglighed – med sjov, varme og faglige udfordringer og HELT uden hierarkier, der fjerner åbenhed og tillid.<p>
+      <p>Det bad vi 2. og 3.g-erne om at efterleve, da de kom dagen efter at 1.g-erne var startet. Jeg tror, der blev mukket lidt i krogene. Jeg tror ikke, at det var en helt igennem populær tilgang. Men – det er blevet accepteret. Og jeg tror, at de 1.g-ere der nu er kommet godt i gang her, de næste to år vil medvirke til, at nye årgange af 1.g-elever på Rysensteen Gymnasium vil blive modtaget med åbne arme.<p>
+      <p>Rigtig godt skoleår til alle ryssere på alle årgange<p>
+      <p>Gitte T<p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Rysensteen</h2>
+      <p>Rysensteen Gymnasium er placeret som en campus i hjertet af Vesterbro midt i København. </p>
+        <h1><img src="Hoved.png" width="250" height="200" ></img></h1>
+    </div>
+
+    <div class="card">
+      <h3>Følg Rysensteen</h3>
+      <p><img src="Instalogo.png" width="150"" height="120" ></img></p>
+      <p>@Rysensteengym</p>
+      <p><img src="FBlogo.png" width="120" height="120" ></img></p>
+      <p>@Rysensteen Gymnasium</p>
+      <p><img src="YTlogo.png" width="120" height="120" ></img></p>
+      <p>@Rysensteen Gymnasium</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+##Studieretninger
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* sætter størrelsen af boksene, ja størrelsen af boksene, dvs. ingen margener osv. så to bokse kan støde helt op til hinanden. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  padding: 10px; /* margen omkring tekst */
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+/* sætter h1 i header klassen til fontsize 50px*/
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden; /* tekst bliver ikke vist hvis det går ud over kanten*/
+  background-color: #004080;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: inline-block; /* linkene fylder hele linjen*/
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* fjerner understregen på link*/
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns*/
+/* danner en klasse til begge kolonner */
+.row:after {
+  content: "";
+  display: block;
+  clear: both; /* rydder efter begge */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="Ryslogo.jpg" width="570" height="200" ></img></h1>
+</div>
+
+<div class="topnav">
+  <a href="Somama2.0.html">Hjem</a>
+  <a href="Studieretninger.html">Studieretninger</a>
+  <a href="GCP.html">GCP</a>
+  <a href="QandA.html">Q&A</a>
+  <a href="Vejledning.html">Vejledning</a>
+  <a href="kontaktos.html" style="float:right">Kontakt os</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h1 style="color:Maroon;">Studieretninger på Rysensteen</h1>
+    </div>
+    <div class="card">
+      <h2  style="color:Maroon;">Musik på Rysensteen:</h2>
+      <h1><img src="music.jpg" width="460" height="200" ></img></h1>
+      <p>På Rysensteen Gymnasium er musikholdene med til at skabe en kreativ, levende og mangfoldig skolekultur. Som musikelev vil du blive del af et stærkt fællesskab både på og uden for skolen, og du kan engagere dig på en lang række forskellige måder og niveauer. Mange aktiviteter styres af eleverne selv - f. eks. den store årlige musical og de populære Spil Op-aftener, hvor elever på tværs af klasser og årgange optræder for hinanden i en afslappet og hyggelig atmosfære med plads til dem der har optrådt mange gange før, og dem der prøver for første gang. I forbindelse med undervisningen kan du opleve koncerter på skolen, workshop og besøg af professionelle artister, samt koncertture til koncertsale og spillesteder i hele København. Derudover har vi en række frivillige musikaktiviteter, som du kan blive en del af, som f.eks. morgensang, instrumentworkshops, kor og sammenspil. Det er kun fantasien der sætter grænser.</p>
+    </div>
+
+    <div class="card">
+      <h2 style="color:Maroon;">Samfundsfag på Rysensteen:</h2>
+      <h1><img src="fn2.jpg" width="490" height="200" ></img></h1>
+
+      <h5>Rysensteen udbyder flere forskellige studieretninger, hvor samfundsfag A er det bærende fag. Læs mere om de forskellige valgmuligheder herunder.</h5>
+
+      <h5  style="color:Maroon;">Samfundsfag og engelsk</h5>
+      <p>   I denne studieretning med samfundsfag A i kombination med engelsk A, får du rig mulighed for at analysere de politiske, økonomiske og kulturelle forhold både i Danmark, Europa og den øvrige del af verden. Du får herved en bred forståelse for de sammenhænge og muligheder, der er skabt med de seneste års globalisering. Gennem den løbende kontakt med partnerskolen øver du dig i at kommunikere og begå dig internationalt. Her får du god støtte fra verdenssproget engelsk, som du har på denne studieretning. Er du interesseret i at blive klogere på den moderne verdens mange spændende udfordringer, vil du trives på denne studieretning.</p>
+      <h5  style="color:Maroon;">Samfundsfag og matematik</h5>
+      <p>I denne studieretning med samfundsfag A i kombination med matematik A, bliver du klædt på til at forstå de udfordringer og muligheder, som en globaliseret verden giver gennem arbejde med både politiske, økonomiske og kulturelle forhold i Danmark og andre lande. Med denne fagkombination vil du blive godt rustet til at tage kritisk stilling til aktuelle emner som meningsmålingers pålidelighed og betydning i forbindelse med fx Trumps valg i USA og det britiske nej til EU. Sammen kan fagene gøre os klogere på de økonomiske sammenhænge og forstå virkningerne af politiske og økonomiske indgreb som for eksempel skattelettelser. Arbejdet med globale problemstillinger, som fx ulighed, er et omdrejningspunkt på studieretningen, hvor vi med matematik kan opgøre ulighedens omfang og med samfundsfag belyse både de økonomiske og sociale konsekvenser.</p>
+    </div>
+    <div class="card">
+    <h2  style="color:Maroon;">Science på Rysensteen:</h2>
+    <h5>Rysensteen Gymnasium udbyder i alt tre forskellige varianter af science-studieretninger. Har du interesser for problemstillinger og løsninger på fysisk, kemi eller biologiske udfordringer, kan du læse mere om de tre valgmuligheder på undersiderne. De tre science-studieretninger udgør tilsammen en meget bred vifte af områder indenfor naturvidenskab. I det daglige arbejde med eksperimenter i skolens laboratorier i staldene vil du blive udfordret på kreativitet og selvstændighed. Så hvis du er interesseret i at blive klogere på hvordan fysisk, kemi, biologi og matematik kan hjælpe med at løse nogle af verdens udfordringer (f.eks. om fusionsenergi kan løse klimakrisen, om gensplejsning kan løse fødevarekrisen, etc.) kan du læse mere om de tre valgmuligheder herunder.</h5>
+    <h1><img src="science.jpg" width="490" height="200" ></img></h1>
+    <h5  style="color:Maroon;">Almen Science</h5>
+    <p>Denne studieretning er for dig, som har interesse for samspillet mellem matematik og science og samtidig er nysgerrig efter at finde ud af, hvordan verden omkring dig i det hele taget er opbygget. Studieretningen giver dig et fascinerende indblik i både matematikkens verden og det naturvidenskabelige verdensbillede, og gør det samtidig muligt for dig at udnytte det matematiske håndværk på mange forskellige måder i de øvrige naturvidenskabelige fag. Du kommer blandt andet til at arbejde med tankevækkende science-eksperimenter, modellering af data fra hverdagen og programmering. Hvad er primtal, og hvad har de med bitcoins og datasikkerhed at gøre? Er det virkelig kræftfremkaldende at ryge? Hvorfor har tigeren striber og leoparden pletter? Kan man lave pålidelige klimamodeller, der er til at stole på? Er der muligt at regne på antal syge i en influenzaepidemi? Hvor stor kan jordens befolkning blive og er der grænser for vækst? Hvordan bygger man egentlig en metro, og på hvilken måde kan den finansieres? Er mobiltelefoner farlige - og hvilket abonnement er billigst? Hvad er sammenhængen mellem solsikke, ananas og det gyldne snit? Hvor mange træk tager det maksimalt at løse Rubiks Cube? Alt det og meget mere kan besvares vha. matematikken og de naturvidenskabelige fag i denne studieretning.</p>
+    <h5  style="color:Maroon;">Science og Bioteknologi</h5>
+    <p>Studieretningen har fokus på genteknologi og arvelighed – miljø og ressourcer – statistisk modellering. Du vil lære at beskrive og forstå, hvordan bioteknologi anvendes i industrien i et videnssamfund. Du kommer til at arbejde bredt med emner fra biologi, kemi, fysik og matematik. I det daglige arbejde med eksperimenter i skolens moderne laboratorier vil du blive udfordret på kreativitet og selvstændighed. Aktuelle emner af bl.a. etisk karakter vil indgå i undervisningen, fx brug af stamceller til behandling af diabetes, fremstilling og udnyttelse af energi, fx i form af bioethanol fra halm og genteknologi. Gennem arbejdet med emnerne vil du få indsigt i, hvordan sciencefagene udnyttes i et moderne samfund, og hvilken betydning de har for globaliseringen.</p>
+    <h5  style="color:Maroon;">Sience og Innovation</h5>
+    <p> Studieretningen er for dig som har interesse i grundlaget for udviklingen af vores forståelse af Universets historie. Her er der plads til at fordybe sig i naturlovene og forundres over både dagligdags- og ekstraordinære fænomener. Centralt i undervisningen står det innovative i det eksperimentelle arbejde i sciencefagene. Her vil du blive udfordret til kreativt at udforske naturens love og anvende dem i flere programmeringsforløb. Med vores eksperimentelle udstyr vil der blive åbnet for nye måder at lære naturvidenskab på. Du vil komme til at arbejde med moderne IT tilgange, både når du tilegner dig viden inden for de centrale fag matematik, fysik og kemi, og når du selv udforsker naturen ud fra dine egne udtænkte eksperimenter. Du vil få en ny forståelse for din omverden og for den indflydelse naturvidenskaben har på dig og samfundet. Med Fysik A i studieretningen kommer du tidligt yil at arbejde med komplekse problemstillinger hvor matematiske redskaber er centrale og du vil oparbejde kompetencer til at løse opgaver på videregående naturvidenskabelige uddannelser.</p>
+
+
+</body>
+</html>
+
+##GCP
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* sætter størrelsen af boksene, ja størrelsen af boksene, dvs. ingen margener osv. så to bokse kan støde helt op til hinanden. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  padding: 10px; /* margen omkring tekst */
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+/* sætter h1 i header klassen til fontsize 50px*/
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden; /* tekst bliver ikke vist hvis det går ud over kanten*/
+  background-color: #004080;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: inline-block; /* linkene fylder hele linjen*/
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* fjerner understregen på link*/
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns*/
+/* danner en klasse til begge kolonner */
+.row:after {
+  content: "";
+  display: block;
+  clear: both; /* rydder efter begge */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="Ryslogo.jpg" width="570" height="200" ></img></h1>
+</div>
+
+<div class="topnav">
+  <a href="Somama2.0.html">Hjem</a>
+  <a href="Studieretninger.html">Studieretninger</a>
+  <a href="GCP.html">GCP</a>
+  <a href="QandA.html">Q&A</a>
+  <a href="Vejledning.html">Vejledning</a>
+  <a href="kontaktos.html" style="float:right">Kontakt os</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2  style="color:MidnightBlue;">GCP - Hvad er det?</h2>
+      <h1><img src="WorldMap.png" width="570" height="300" ></img></h1>
+      <p>Formålsbeskrivelse</p>
+      <p>Global Citizenship programmet har to overordnede formål. For det første skal det skabe forudsætningerne hos Rysensteens elever for at kunne uddanne sig i udlandet og sidenhed arbejde i internationalt orienterede virksomheder, institutioner eller NGOer. For det andet skal det gøre Rysensteens elever til verdensborgere, der har evnerne og modet til at reflektere over både egne og andres værdier i mødet med fremmede kulturers mangfoldighed. Og som med en stærk forankring i egne, demokratiske værdier, respekterer forskelle i tradition, sprog, religion, vaner og livsform, og er indstillet på – forskellene til trods - at forstå og tage ansvar for løsningerne på globale problemstillinger</p>
+    </div>
+    <div class="card">
+      <h2   style="color:MidnightBlue;">FNs 17 verdensmål</h2>
+      <h5></h5>
+      <img src="fn2.jpg" width="570" height="300" ></img>
+      <p>På Rysensteen Gymnasium mener vi, at den globale borgers centrale evner er viden og evnen til at reflektere på en nuanceret måde over "den anden" og ikke mindst sig selv, når man engagerer sig i møder med udenlandske kulturer.
+
+Men disse evner kan ikke stå alene. Vi tror på, at et globalt borgerskab kun bliver udfoldet, når de bruges til konkret handling. Derfor er FNs 17 udviklingsmål integreret i Rysensteen Gymnasiums Global Citizenship Programme. Det betyder, at alle fag er forpligtet til at inddrage målene i deres læreplaner, og at mange ekstra-curriculære aktiviteter fokuserer på at fremme et eller flere af målene for bæredygtig udvikling.
+
+Det er vores håb, at vi kan yde et beskedent bidrag til at fremme FNs mål for bæredygtig udvikling gennem Global Citizenship Programmet. </p>
+
+</div>
+<div class="card">
+  <h2   style="color:MidnightBlue;">Rysensteenere i verden</h2>
+  <h5></h5>
+  <img src="Rysiverden.png" width="570" height="300" ></img>
+  <p>Ud i verden på egen hånd: Rysensteen Gymnasium sender hvert år op mod fem 3g-elever ud i verden som en del af deres gymnasieforløb - bl.a. med økonomisk støtte fra skolens Jubilæumsfond. </p>
+
+
+  </div>
+  <div class="card">
+    <h2   style="color:MidnightBlue;">Læreplan og progressionsplan</h2>
+    <h5>Baggrund for Global Citizenship Programme på Rysensteen Gymnasium</h5>
+    <img src="Læreplan.png" width="570" height="300" ></img>
+    <p>På Rysensteen Gymnasium har det grundlæggende værdisæt siden 1990'erne været rundet af en demokratisk omgangsform både i undervisningen og i skolekulturen generelt. Eleverne har altid haft medindflydelse i mange beslutninger, har deltaget aktivt i evalueringsopbygninger og har ofte påtaget sig et stort ansvar ved planlægning af tiltag på skolen eller ved tilrettelæggelse af arrangementer.
+
+Dette blev i 2011 udbygget med en stor international satsning kaldet Global Citizenship Programme, der udover partnerskoler over hele verden til alle spor også har resulteret i en læreplan, der nøje beskriver, hvordan vi arbejder med programmet  i den daglige undervisning. I 2015 blev Rysensteen Gymnasium godkendt som international profilskole for dette arbejde.  </p>
+
+
+
+
+</body>
+</html>
+
+
+##Q&A
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* sætter størrelsen af boksene, ja størrelsen af boksene, dvs. ingen margener osv. så to bokse kan støde helt op til hinanden. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  padding: 10px; /* margen omkring tekst */
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+/* sætter h1 i header klassen til fontsize 50px*/
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden; /* tekst bliver ikke vist hvis det går ud over kanten*/
+  background-color: #004080;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: inline-block; /* linkene fylder hele linjen*/
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* fjerner understregen på link*/
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns*/
+/* danner en klasse til begge kolonner */
+.row:after {
+  content: "";
+  display: block;
+  clear: both; /* rydder efter begge */
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="Ryslogo.jpg" width="570" height="200" ></img></h1>
+</div>
+
+<div class="topnav">
+  <a href="Somama2.0.html">Hjem</a>
+  <a href="Studieretninger.html">Studieretninger</a>
+  <a href="GCP.html">GCP</a>
+  <a href="QandA.html">Q&A</a>
+  <a href="Vejledning.html">Vejledning</a>
+  <a href="kontaktos.html" style="float:right">Kontakt os</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2   style="color:MidnightBlue;">SVAR FRA ELEVER</h2>
+      <h1><img src="QB.jpg" width="570" height="400" ></img></h1>
+      <h5> Rysensteen har arbejdet på at gøre det så nemt så muligt for dig at få svar på dine spørgsmål fra vores elever. </h5>
+      <p> Mathilde: 18 år, 3G, Fyma (Matematik A, Fysik A, Kemi B)</p>
+      <p> Marie: 18 år, 3G, Biotek (Bioteknologi A, Matematik A, og noget andet)</p>
+      <p>Jonathan: 17 år, 2G, SamfMat (Samfundsfag A, Matematik A) </p>
+      <p>Enzo: 19 år, 3G, SamfEngelsk (Samfundsfag A, Engelsk A)
+    </div>
+    <div class="card">
+      <h2   style="color:MidnightBlue;"> Udvalg </h2>
+      <h5>Besvaret af Mathilde og Marie</h5>
+      <h3> Hvilke udvalg kan man finde på skolen? -Carla </h3>
+      <p> Helt centralt i det sociale fællesskab på Rysensteen står de mange selvstyrende elevudvalg. Festudvalget samler helt naturligt mange elever, der står for at planlægge og gennemføre skolens fester i samarbejde med ledelsen. Kælderudvalget samler elever, der bestyrer skolens elevkælder – lige fra indretning til afvikling af arrangementer med diverse temaer.</p>
+<p>Mange andre udvalg er med til at præge skolens liv i løbet af skoleåret – nogle kun i kort tid, mens andre går i arv fra generation til generation. Skolebladsudvalget Kanylen, skiudvalget, musicaludvalget, morgensamlingsudvalget, Mamse, Sig det med blomster og GURG er eksempler på udvalg, der har overlevet gennem mange generationer. Alle udvalg orienterer jævnligt om møder og aktiviteter på morgensamlingen </p>
+<h3>Elevrådet</h3>
+<p>Elevrådet på Rysensteen består af over 70 elever, og det har aldrig været større end det er i skoleåret 2018/19. Det vigtigste for os er, at eleverne bliver hørt, og at alle har en stemme. Som udgangspunkt sidder der to repræsentanter fra hver klasse i elevrådet, men møderne er åbne, og alle elever er enormt velkomne til at deltage. Vi har møder ca. hver 3. uge, hvor vi altid diskuterer ideer og kommende begivenheder, som elevrådet står for. Hvert år afholder vi Demokratidag, hyttetur, og i år løftede vi for første gang sløret for Ryskilde, som er en dag fyldt med live-musik, boder og højt humør. I starten af hvert kalenderår afholder vi også Formandsvalg, hvor der vælges to nye formænd for Elevrådet. Valget foregår foran hele skolen, hvor alle elever har mulighed for både at stille op og stemme på de opstillede. Formændene har ugentlige møder med ledelsen, og de deltager også i skolens bestyrelsesmøder.Elevrådet er det hyggeligste udvalg, hvor du både får mulighed for at engagere dig i skolen, samtidig med at du lærer en masse spændende mennesker at kende på tværs af klasser og årgange.</p>
+<h3> Talentudvikling</h3>
+<h5> Hvilke muligheder tilbyder skolen for andre lærerige aktiviteter? </h5>
+<p> På Rysensteen Gymnasium gør vi en indsats for, at elever med specielle evner og fagligt overskud får mulighed for at udvikle sig yderligere. I vores studieretningsstruktur er der bl.a. mulighed for at læse fem fag på A-niveau (mod de traditionelle fire), men ud over dette foregår der mange aktiviteter, som rækker ud over den daglige undervisning i form af faglige konkurrencer, brobygning med universiteter og erhvervsliv. Aktiviteterne varierer meget i form og indhold. Nogle aktiviteter kræver ansøgninger som Talentudvalget vurderer, andre har indledende konkurrencer. Der findes også tilbud for hele klasser og for små hold.</p>
+<p>Akademiet for Talentfulde Unge
+ATU - et tilbud til fagligt motiverede og akademisk talentfulde gymnasieelever. Rysensteen tilmelder ca. 10 elever pr. årgang.
+
+I en almindelig gymnasieklasse sidder der gennemsnitligt to elever, der har evne og lyst til at arbejde med deres akademiske interesser på en måde, der rækker ud over den almindelige undervisning. Akademiet for Talentfulde Unge er et særligt tilbud til disse engagerede elever, og Akademiets program giver dem muligheden for en række nye udfordringer og faglig inspiration. Akademimedlemmerne er tilknyttet programmet i to år fra midten af 1g frem til første semester af 3g. Forløbet har til formål at inspirere og udfordre eleverne fagligt, samt at forberede dem på en akademisk karriere. For at nå i mål med dette har Akademiet et løbende samarbejde med både videregående uddannelser og private virksomheder, som har til formål hvert år at sammensætte et unikt program, der giver deltagerne mulighed for at møde nogle af landets fremmeste forskere og mest innovative virksomheder.Akademiet for Talentfulde Unge er også et tilbud til deltagerne om socialt samvær og sparring med ligesindede. Hvert år tilbydes talenterne at deltage på en uges intensiv akademisk camp i sommerferien, hvor faglige udfordringer udbydes under hyggelige forhold.</p>
+<p>Projekt Forskerspirer
+Projekt Forskerspirer er et landsdækkende tilbud til elever på de fire gymnasiale ungdomsuddannelser hf, hhx, htx og stx. Projektet er primært for elever i 2.g. eller 1.hf, der har et stort fagligt overskud.Projekt Forskerspirer er en konkurrence, der løber over et år. I slutningen af oktober afleverer forskerspirerne en synopsis til et forskningsprojekt. En dommerkomité udvælger de tre bedste projekter inden for hver af kategorierne: HUM, NAT, SAMF og SUND. De 12 nominerede projekter præsenteres ved en festlighed i december. Her bliver en vinder i hver af de fire kategorier kåret som årets forskerspire. Vinderne kåres på skift af undervisnings- og uddannelsesministeren, og de modtager hver 20.000 kr. til at udføre deres projekt.Rysensteen Gymnasium får 4 pladser stillet til rådighed. For at deltage i projektet skal du aflevere en kort projektbeskrivelse, som vurderes af talentudvalget. De fire mest oplagte kandidater får mulighed for at indsende deres bidrag til Københavns Universitet og tilmeldes herefter til projektet.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2   style="color:MidnightBlue;"> Skolekultur</h2>
+      <h3> Hvad mener i er det bedste ved Rysensteen? - Jonas </h3>
+      <h5> Hej Jonas </h5>
+      <h5> Rysensteen er efter min mening det bedste gymnasie, Wuhuuu. Jeg har mødt nogle af mine besdte venner her. Rys giver en muligheden for at gøre sin social kreds større og give mange muligheder for at møde nye mennesker.</h5>
+      <h5> - Jonathan</h5>
+    </div>
+    <div class="card">
+      <h3   style="color:MidnightBlue;">Skole</h3>
+      <h3> Hvor gode er science lærerne? - Kathrine </h3>
+      <h5> Hej Kathrine :) </h5>
+      <h5> Det er et meget godt spørgsmål. Jeg har været meget heldige med mine lære. De virker alle sammen intereseret i deres arbejde og gør deres besdte. Jeg ville nok mene at det er nogle af de besdte lære jeg nogen sinde har haft. Især når det kommer til Mat og Fysik.  </h5>
+      <h5> - Mathilde</h5>
+      <h3> Får i mange afleveringer for? - Christian</h3>
+      <h5> Hey Christian </h5>
+      <h5> Nu hvor vores studieretning har 3 A fag med skriftlig elevtid, kan vi meget tit finde os selv med at skrive en aflevering hver uge. På nogle punkter kan det godt føles som om at alle lærerne har sat en aflevering for i samme uge. Det er hårdt. Og nogle gange kan der gå uger før din næste aflevering. For det meste kan man godt for rykket dem hvis det bliver for meget. Man skal bare huske at være i kommunikation med ens lære.</h5>
+      <h5> - Marie</h5>
+
+    </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+##Vejledning
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* sætter størrelsen af boksene, ja størrelsen af boksene, dvs. ingen margener osv. så to bokse kan støde helt op til hinanden. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  padding: 10px; /* margen omkring tekst */
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+/* sætter h1 i header klassen til fontsize 50px*/
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden; /* tekst bliver ikke vist hvis det går ud over kanten*/
+  background-color: #004080;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: inline-block; /* linkene fylder hele linjen*/
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* fjerner understregen på link*/
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns*/
+/* danner en klasse til begge kolonner */
+.row:after {
+  content: "";
+  display: block;
+  clear: both; /* rydder efter begge */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="Ryslogo.jpg" width="570" height="200" ></img></h1>
+</div>
+
+<div class="topnav">
+  <a href="Somama2.0.html">Hjem</a>
+  <a href="Studieretninger.html">Studieretninger</a>
+  <a href="GCP.html">GCP</a>
+  <a href="QandA.html">Q&A</a>
+  <a href="Vejledning.html">Vejledning</a>
+  <a href="kontaktos.html" style="float:right">Kontakt os</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h1 style="color:Maroon;">Vejledning</h1>
+    </div>
+    <div class="card">
+      <h2 style="color:Maroon;">Er du klar til gymnasiet?</h2>
+      <p>Find informationer om hvilken gymnasial uddanelse der passer bedst til dig hos UddannelsesGuiden. Følg linket: </p>
+      <p><a href="https://www.ug.dk/uddannelser/gymnasialeuddannelser">Besøg UddannelsesGuidens hjemmeside</a></p>
+      <h1><img src="uddannelsesGuiden.jpg" width=100% ></img></h1>
+    </div>
+
+    <div class="card">
+      <h2 style="color:Maroon;">Studievalg:</h2>
+      <h5>Studievalg Danmark hjælper dig med dit valg af videregående uddannelse, herunder videregående efter- og videreuddannelse.Fokus i vejledningen er både på at få overblik over dine muligheder og på dit valg af videregående uddannelse og de efterfølgende beskæftigelsesmuligheder. Studievalg vejleder om videregående uddannelse på skoler med ungdomsuddannelse.</h5>
+      <p>Få inspiration til din vidergående uddannelse, ved brug af værktøjer til rådighed hos UddannelsesGuiden. Følg linket: </p>
+      <p><a href="https://www.ug.dk/inspiration/vejledningsvaerktoejer-0">Benyt værktøjer hos UddannelsesGuiden</a></p>
+      <h1><img src="værktøjer.jpg" width=100% ></img></h1>
+    </div>
+
+    <div class="card">
+    <h2 style="color:Maroon;">Trivsel og sundhed:</h2>
+    <p>På Rysensteen Gymnasium er elevernes sundhed og trivsel i fokus, og vi har forskellige tiltag til at fremme den fysiske og psykiske sundhed. For at sikre elevtrivslen arbejdes der med at skabe en tryg og rummelig klassekultur og gode sociale fællesskaber i såvel klassen samt på tværs af klasser. Skolens mange elevudvalg skaber rammerne for, at eleverne kan mødes på tværs og derudover afholder skolen løbende diverse fællesarrangementer. Den fysiske sundhed søger vi at fremme gennem at arbejde systematisk med at skabe sunde alkohol, rusmiddel- og rygevaner. Derudover forsøger vi at fremme en aktiv hverdag for eleverne, idet de har adgang til DGI-byens faciliteter før og efter skole og vi tilbyder frivillig idræt om fredagen.</p>
+    </div>
+
+
+</body>
+</html>
+
+
+##Kontakt os
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* sætter størrelsen af boksene, ja størrelsen af boksene, dvs. ingen margener osv. så to bokse kan støde helt op til hinanden. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  padding: 10px; /* margen omkring tekst */
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+/* sætter h1 i header klassen til fontsize 50px*/
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden; /* tekst bliver ikke vist hvis det går ud over kanten*/
+  background-color: #004080;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: inline-block; /* linkene fylder hele linjen*/
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* fjerner understregen på link*/
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns*/
+/* danner en klasse til begge kolonner */
+.row:after {
+  content: "";
+  display: block;
+  clear: both; /* rydder efter begge */
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="Ryslogo.jpg" width="570" height="200" ></img></h1>
+</div>
+
+<div class="topnav">
+  <a href="Somama2.0.html">Hjem</a>
+  <a href="Studieretninger.html">Studieretninger</a>
+  <a href="GCP.html">GCP</a>
+  <a href="QandA.html">Q&A</a>
+  <a href="Vejledning.html">Vejledning</a>
+  <a href="kontaktos.html" style="float:right">Kontakt os</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>KONTAKT</h2>
+      <p> RYSENSTEEN GYMNASIUM<p>
+<p> Tietgensgade 74 (postadresse)<p>
+<p> DK 1704 København V<p>
+<p> samt<p>
+
+<p> Flæsketorvet 60<p>
+<p> DK 1711 København V<p>
+
+<p> Tlf.: 33244311<p>
+<p> Mail: mail@rysensteen.dk<p>
+
+<p> Åbningstider:<p>
+<p> Telefonen og vore kontorer er åbne mandag til torsdag fra kl. 07.30-15.30 og fredag fra kl. 07.30 -15.00, dog lukket for frokost 12.15-12.45.  </p>
+<h2> Rysensteen</h2>
+<p>CVR-nr: 29542708<p>
+<p>EAN-nr.: 5798000557949<p>
+<p>P-nr.: 1003256158<p>
+<p>Institutionsnr.: 101115<p>
+<p>Eksamensnr.: 23<p>
+
+
+</body>
+</html>
