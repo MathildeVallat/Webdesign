@@ -37,11 +37,11 @@ body {
 /* Style the topnav links */
 .topnav a {
   float: left;
-  display: inline-block; /* linkene fylder hele linjen*/
+  display: inline-block; 
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none; /* fjerner understregen på link*/
+  text-decoration: none; 
 }
 
 /* Change color on hover */
