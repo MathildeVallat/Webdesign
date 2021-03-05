@@ -30,7 +30,7 @@ body {
 
 /* Style the top navigation bar */
 .topnav {
-  overflow: hidden; /* tekst bliver ikke vist hvis det går ud over kanten*/
+  overflow: hidden; 
   background-color: #004080;
 }
 
